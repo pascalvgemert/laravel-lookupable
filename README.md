@@ -1,6 +1,24 @@
 # Laravel Lookupable
 Lookupable Trait for Laravel eloquent models for quick and efficient table lookups.
 
+[![Total Downloads](https://poser.pugx.org/pascalvgemert/laravel-lookupable/downloads)](https://packagist.org/packages/pascalvgemert/laravel-lookupable)
+[![License](https://poser.pugx.org/pascalvgemert/laravel-lookupable/license)](https://packagist.org/packages/pascalvgemert/laravel-lookupable)
+
+## About the package
+
+When building more complex applications, lookup queries can add up without you even knowing. 
+The lookupable trait will only get the lookup instances once per request and store them in memory. 
+Every next time you want to lookup a lookupable instance of the same Model, the lookup methods will access the in memory stored instances and prevent a query.
+
+**Example:**
+You have a lookup table for statuses like `pending`, `draft`, `published`, `deleted`. You can access these instances multiple times, with only one query per request:
+
+```php
+$draftStatus = Status::lookup('draft'); // Executes the select * query and puts all instances in memory
+$publishedStatus = Status::lookup('published'); // Will get the instance from memory
+$deletedStatus = Status::lookup('deleted'); // Will get the instance from memory
+```
+
 ## Installation
 
 You can install the package via composer:
