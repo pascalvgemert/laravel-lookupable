@@ -1,6 +1,9 @@
 # Laravel Lookupable
 Lookupable Trait for Laravel eloquent models for quick and efficient table lookups.
 
+[![Total Downloads](https://poser.pugx.org/pascalvgemert/laravel-lookupable/downloads)](https://packagist.org/packages/pascalvgemert/laravel-lookupable)
+[![License](https://poser.pugx.org/pascalvgemert/laravel-lookupable/license)](https://packagist.org/packages/pascalvgemert/laravel-lookupable)
+
 ## Installation
 
 You can install the package via composer:
