@@ -8,7 +8,7 @@
         "lookup tables"
     ],
     "homepage": "https://github.com/pascalvgemert/laravel-lookupable",
-    "license": "GNU",
+    "license": "MIT",
     "authors": [
         {
             "name": "Pascal van Gemert",
