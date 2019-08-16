@@ -1,6 +1,6 @@
 {
     "name": "pascalvgemert/laravel-lookupable",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Lookupable Trait for Laravel eloquent models for quick and efficient table lookups.",
     "keywords": [
         "pascalvgemert",
