@@ -4,6 +4,8 @@ Lookupable Trait for Laravel eloquent models for quick and efficient table looku
 [![Total Downloads](https://poser.pugx.org/pascalvgemert/laravel-lookupable/downloads)](https://packagist.org/packages/pascalvgemert/laravel-lookupable)
 [![License](https://poser.pugx.org/pascalvgemert/laravel-lookupable/license)](https://packagist.org/packages/pascalvgemert/laravel-lookupable)
 
+### Requires Laravel 5.5 or higher!
+
 ## About the package
 
 When building more complex applications, lookup queries can add up without you even knowing. 
